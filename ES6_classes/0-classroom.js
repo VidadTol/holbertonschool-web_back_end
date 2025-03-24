@@ -1,6 +1,6 @@
 class ClassRoom {
   constructor(maxStudentsSize) {
-    this.maxStudentsSize = maxStudentsSize;
+    this._maxStudentsSize = maxStudentsSize;
   }
 }
 
