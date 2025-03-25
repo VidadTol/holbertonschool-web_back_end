@@ -28,20 +28,17 @@
 
 | Filename | Description |
 | -------- | ----------- |
-| `0. You used to attend a place like this at some point` |Implement a class named ClassRoom.|
-| `1. Let's make some classrooms` |Implement a function named initializeRooms. It should return an array of 3 ClassRoom objects with the sizes 19, 20, and 34 (in this order).|
-| `2. A Course, Getters, and Setters` |The HolbertonCourse class has name, length, and students attributes, validated for type, stored privately (e.g., _name), with getters and setters.|
-| `3. Methods, static methods, computed methods names..... MONEY ` |Implement the Currency class with code and name attributes (stored as _code and _name), getters, setters, and a displayFullCurrency method returning name (code).|
-| `4. Pricing ` |Implement the Pricing class with _amount and _currency attributes, getters, setters, a displayFullPrice method, and a static convertPrice|
-| ` ` | |
-| ` ` | |
-| ` ` | |
-| ` ` | |
-| ` ` | |
-| ` ` | |
-| ` ` | |
-| ` ` | |
-| ` ` | |
+| `0. You used to attend a place like this at some point`|Implement a class named ClassRoom.|
+| `1. Let's make some classrooms`|Implement a function named initializeRooms. It should return an array of 3 ClassRoom objects with the sizes 19, 20, and 34 (in this order).|
+| `2. A Course, Getters, and Setters`|The HolbertonCourse class has name, length, and students attributes, validated for type, stored privately (e.g., _name), with getters and setters.|
+| `3. Methods, static methods, computed methods names..... MONEY`|Implement the Currency class with code and name attributes (stored as _code and _name), getters, setters, and a displayFullCurrency method returning name (code).|
+| `4. Pricing`|Implement the Pricing class with _amount and _currency attributes, getters, setters, a displayFullPrice method, and a static convertPrice.|
+| `5. A Building`|Create an abstract class Building with a sqft attribute (stored as _sqft), a getter for it, and ensure any subclass implements evacuationWarningMessage, throwing an error if not overridden.|
+| `6. Inheritance`|Create SkyHighBuilding, extending Building, with sqft and floors as private attributes. Add getters and override evacuationWarningMessage to return: Evacuate slowly the NUMBER_OF_FLOORS floors.|
+| `7. Airport`|Create a class Airport with attributes name and code stored as private (_name and _code). Redefine its default string description (toString) to return the airport code.|
+| `8. Primitive - Holberton Class` |Class HolbertonClass: _size (Number) and _location (String). Cast to Number → returns size. Cast to String → returns location|
+| `9. Hoisting`|Fix this code and make it work.|
+| `10. Vroom`| Class Car with _brand, _motor, and _color as private attributes. Includes a cloneCar method to return a new instance of the class.|
 
 
 <p align="center">
