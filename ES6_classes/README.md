@@ -28,11 +28,11 @@
 
 | Filename | Description |
 | -------- | ----------- |
-| `0. You used to attend a place like this at some point` | Implement a class named ClassRoom|
-| `1. Let's make some classrooms` | Implement a function named initializeRooms. It should return an array of 3 ClassRoom objects with the sizes 19, 20, and 34 (in this order).|
-| ` ` | |
-| ` ` | |
-| ` ` | |
+| `0. You used to attend a place like this at some point` |Implement a class named ClassRoom.|
+| `1. Let's make some classrooms` |Implement a function named initializeRooms. It should return an array of 3 ClassRoom objects with the sizes 19, 20, and 34 (in this order).|
+| `2. A Course, Getters, and Setters` |The HolbertonCourse class has name, length, and students attributes, validated for type, stored privately (e.g., _name), with getters and setters.|
+| `3. Methods, static methods, computed methods names..... MONEY ` |Implement the Currency class with code and name attributes (stored as _code and _name), getters, setters, and a displayFullCurrency method returning name (code).|
+| `4. Pricing ` |Implement the Pricing class with _amount and _currency attributes, getters, setters, a displayFullPrice method, and a static convertPrice|
 | ` ` | |
 | ` ` | |
 | ` ` | |
