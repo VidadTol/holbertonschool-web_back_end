@@ -5,7 +5,8 @@
 ##  Objectives
 
 `How to define a class:` 
-`Map, Filter, and Reduce on Arrays`
+`Map, Filter, and Reduce on Arrays`  
+
 `Map:` Transforms each element of an array according to a given function to create a new array.
 
 `Filter:` Creates a new array by selecting the elements of the initial array that meet a specific criterion.
@@ -38,15 +39,16 @@ Typed arrays are specialized arrays, optimized for handling binary data. They al
 | Filename | Description |
 | -------- | ----------- |
 |`0. Basic list of objects`|Create a getListStudents function that returns an array of objects with three attributes.|
-|``||
-|``||
-|``||
-|``||
-|``||
-|``||
-|``||
-|``||
-|``||
+|`1. More mapping`|Create a getListStudentIds function that returns an array of IDs from a list of objects.|
+|`2. Filter`|Create a getStudentsByLocation function that returns an array of objects corresponding to a specific city.|
+|`3. Reduce`|Create a function getStudentIdsSum that returns the sum of all student IDs.|
+|`4. Combine`|Create a function updateStudentGradeByCity.|
+|`5. Typed Arrays`|Create a function createInt8TypedArray that returns a new ArrayBuffer containing an Int8 value at a specific position.|
+|`6. Set data structure`|Create a setFromArray function that returns a Set from an array.|
+|`7. More set data structure`|Create a function hasValuesFromArray that returns a boolean indicating whether all elements of the array exist in the Set|
+|`8. Clean set`|Create a cleanSet function that returns a string containing all values ​​in the Set starting with a specific string (startString).s|
+|`9. Map data structure`|Create a function named groceriesList that returns a map of groceries.|
+|`10. More map data structure` |Create an updateUniqueItems function that accepts a Map, updates the entries with a quantity from 1 to 100, and throws a "Cannot process" error if the argument is not a Map.|
 
 <p align="center">
   <img src="https://i.imgur.com/J1oVLId.jpeg" name="logo Holberton"/>
