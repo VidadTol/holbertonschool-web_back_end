@@ -1,5 +1,5 @@
 <div align= "center">
-  <h1>Holbertonschool-web_back_end</h1>
+  <h1>ES6_classes</h1>
 </div>
 
 ##  Objectives
