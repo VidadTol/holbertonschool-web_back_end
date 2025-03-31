@@ -5,6 +5,8 @@
 ## Table of Contents
 
 - [ES6_basic](#ES6_basic)
+- [ES6_classes](#ES6_classes)
+- [ES6_data_manipulation](#ES6_data_manipulation)
 
 
 
@@ -20,10 +22,21 @@
 
 ## Projects
 
-### ES6_basic
-Basic introduction to ES6
-- [Link to directory](./ES6_basic)
+## ES6 Modules Overview
 
+### ES6 Basic
+An essential introduction to ES6 concepts and syntax.
+- [Access the directory here](./ES6_basic)
+
+### ES6 Classes
+Learn the fundamentals of object-oriented programming with ES6 classes.
+- [Access the directory here](./ES6_classes)
+
+### ES6 Data Manipulation
+Explore advanced data handling and transformations using ES6 features.
+- [Access the directory here](./ES6_data_manipulation)
+
+<br>
 
 
 <p align="center">
