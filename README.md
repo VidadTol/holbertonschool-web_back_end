@@ -7,6 +7,7 @@
 - [ES6_basic](#ES6_basic)
 - [ES6_classes](#ES6_classes)
 - [ES6_data_manipulation](#ES6_data_manipulation)
+- [ES6_promise](#ES6_promise)
 
 
 
@@ -35,6 +36,10 @@ Learn the fundamentals of object-oriented programming with ES6 classes.
 ### ES6 Data Manipulation
 Explore advanced data handling and transformations using ES6 features.
 - [Access the directory here](./ES6_data_manipulation)
+
+### ES6 Promise
+Dive deeper into asynchronous programming using ES6 Promises.
+- [Access the directory here](./ES6_promise)
 
 <br>
 
