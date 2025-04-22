@@ -1,5 +1,8 @@
 #!/usr/bin/env python3
 
+""" Module for element_length function """
+
+
 from typing import List, Tuple, Iterable, Sequence
 
 

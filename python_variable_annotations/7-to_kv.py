@@ -1,5 +1,7 @@
 #!/usr/bin/env python3
 
+""" Type annotation for to_kv function """
+
 from typing import Union, Tuple
 
 
