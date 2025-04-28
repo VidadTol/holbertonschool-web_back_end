@@ -1,5 +1,7 @@
 #!/usr/bin/env python3
 
+""" Module for async_comprehension function"""
+
 from typing import List
 
 
