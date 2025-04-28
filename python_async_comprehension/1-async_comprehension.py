@@ -4,13 +4,7 @@ import asyncio
 import random
 
 
-async def async_generator():
-    """
-    Yields a random number between 0 and 10 every second for 10 seconds.
-    """
-    for i in range(10):
-        await asyncio.sleep(1)
-        yield random.uniform(0, 10)
+async_generator = __import__('0-async_generator').async_generator
 
 
 async def async_comprehension():
