@@ -32,9 +32,10 @@ class Server:
         return self.__dataset
 
     def get_page(self, page: int = 1, page_size: int = 10) -> List[List]:
-            """ get the page with the pagination"""
-            assert type(page) is int and type(page_size) is int
-            assert page > 0 and page_size > 0
-            start, end = index_range(page, page_size)
+        """ get the page with the pagination
+            """
+        assert type(page) is int and type(page_size) is int
+        assert page > 0 and page_size > 0
+        start, end = index_range(page, page_size)
 
-            return self.dataset()[start:end]
+        return self.dataset()[start:end]
