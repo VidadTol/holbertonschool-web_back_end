@@ -36,9 +36,9 @@ Use cursor-based pagination (with a unique identifier) ​​instead of offset-b
 | Filename | Description |
 | -------- | ----------- |
 |`0. Simple helper function`|Create a function index_range(page, page_size) that returns a tuple (start_index, end_index) representing the start and end indices for paging a list, given the page number (base 1) and the page size.|
-|`1. Simple pagination`||
-|`2. Hypermedia pagination`||
-|`3. Deletion-resilient hypermedia pagination`||
+|`1. Simple pagination`|Reproduce the code from the previous task. Implement a get_hyper method that takes the same arguments as get_page and returns a dictionary.|
+|`2. Hypermedia pagination`|Implement get_page(page, page_size): pagination of a CSV, checking for positive integers, using index_range, returning the data page, empty list if out of range.|
+|`3. Deletion-resilient hypermedia pagination`|The goal is to prevent deleting rows between two queries from causing loss of dataset elements during pagination.|
 
 
 <br>
