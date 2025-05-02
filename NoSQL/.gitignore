@@ -1,2 +1,4 @@
 *-main.py
 env/
+*.pyc
+__pycache__/
