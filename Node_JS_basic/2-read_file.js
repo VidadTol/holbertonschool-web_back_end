@@ -14,6 +14,7 @@ function countStudents(path) {
     console.log(`Number of students: ${students.length}`);
 
     const fields = {};
+
     students.forEach(line => {
       const studentData = line.split(',');
       const name = studentData[0];
@@ -28,7 +29,7 @@ function countStudents(path) {
       console.log(`Number of students in ${field}: ${names.length}. List: ${names.join(', ')}`);
     });
   } catch (error) {
-    console.error(`Error: Cannot load the database`);
+    throw new Error(`Cannot load the database`);
   }
 }
 
