@@ -26,11 +26,12 @@ function countStudents(path) {
                 fields[field].push(name);
             });
 
+            let result = `Number of students: ${students.length}\n`;
             Object.entries(fields).forEach(([field, names]) => {
-                console.log(`Number of students in ${field}: ${names.length}. List: ${names.join(', ')}`);
+                result +=`Number of students in ${field}: ${names.length}. List: ${names.join(', ')}\n`;
             });
 
-            resolve({total:students.length, fields });
+            resolve(result.trimEnd());
         });
     });
 }
