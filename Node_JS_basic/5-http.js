@@ -18,13 +18,13 @@ const app = http.createServer(async (req, res) => {
       const studentData = await countStudents(databaseFile); 
       reponseText += studentData;
     } catch (error) {
-      res.write(error.message);
+      reponseText += (error.message);
     }
-    return res.end(reponseText);
+    return res.end(reponseText.trimEnd());
   }
 
   res.writeHead(404);
-  res.end("Page not found");
+  res.end("Not found");
 });
 
 app.listen(1245, () => {
