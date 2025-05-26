@@ -34,14 +34,10 @@
 | `1. Using Process stdin`|Create a program that prompts for the user's name and displays it before exiting gracefully.|
 | `2. Reading a file synchronously with Node JS`|2-read_file.js reads a CSV file, counts and displays the number of students per field, while handling errors.|
 | `3. Reading a file asynchronously with Node JS`|Create an asynchronous function in Node.js that reads a CSV file, counts students by subject, displays the results, and returns a Promise, while handling errors.|
-| ``||
-| ``||
-| ``||
-| ``||
-| ``||
-| ``||
-| ``||
-
+| `4. Create a small HTTP server using Node's HTTP module`|Create a small HTTP server using the http module:|
+| `5. Create a more complex HTTP server using Node's HTTP module`|Create a small HTTP server using the http module:|
+| `6. Create a small HTTP server using Express`|Create a small HTTP server using Express module:|
+| `7. Create a more complex HTTP server using Express`|Recreate the small HTTP server using Express:|
 
 
 <p align="center">
